@@ -1,3 +1,5 @@
+//this class has all of the functions to manipulate Media objects and interact with the user
+
 #include "include/Episodes.h"
 #include "include/Seasons.h"
 #include "include/Media.h"
@@ -11,14 +13,14 @@ using namespace std;
 
 class App{
   private:
-    vector <Media*> vectorMedia;
+    vector <Media*> vectorMedia; //composition
   public:
     App();
     void start();
     bool menu();
-    void LoadSeries(ifstream &file);
-    void LoadMovies(ifstream &file);
-    int maxPeople(const char* file);
+    void LoadSeries(ifstream &file); //read Series.txt
+    void LoadMovies(ifstream &file); //read Movies.txt
+    int maxMedia(const char* file); //MaxMedia
     Genre readGenre(ifstream &input);
     void sortByRaiting();
     void sortByGenre();

@@ -9,7 +9,7 @@ class Movies : public Media{
     //constructor
     Movies();
     Movies(double _ID, string _name, Genre _genre,float _raiting,double _length);
-    //method
+    //method that was overriden from the pure virtual method of Media
     string displayMedia() override;
     //getters y setters
     void setLength(double _length);

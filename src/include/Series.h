@@ -10,12 +10,12 @@ class Series : public Media{
   private:
     int numOfSeasons;
     float episodeRaiting;
-    vector <Seasons> listOfSeasons;
+    vector <Seasons> listOfSeasons; //aggregation
   public:
   //constructor
     Series();  
     Series(double _ID, string _name, Genre _genre,float _raiting,  vector <Seasons> _listOfSeasons);
-  //methods
+  //method overriden from the pure virtual function
     string displayMedia() override;
   //getters y setters
     int getNumOfSeasons();

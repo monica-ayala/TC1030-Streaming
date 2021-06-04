@@ -60,7 +60,7 @@ bool App::menu(){
 }
 
 void App::LoadSeries(ifstream &file){
-  for(int i=0;i<=maxPeople("Series.txt");i++){
+  for(int i=0;i<=maxMedia("Series.txt");i++){
     double ID;
     string name;
     Genre genre;
@@ -93,7 +93,7 @@ void App::LoadSeries(ifstream &file){
 }
 
 void App::LoadMovies(ifstream &file){
-  for(int i=0;i<=maxPeople("Movies.txt");i++){
+  for(int i=0;i<=maxMedia("Movies.txt");i++){
     double ID;
     string name;
     Genre genre;
@@ -107,7 +107,7 @@ void App::LoadMovies(ifstream &file){
     vectorMedia.push_back(new Movies(ID,name,genre,raiting,length)); 
 }}
 
-int App::maxPeople(const char* file){
+int App::maxMedia(const char* file){
   ifstream inFile(file);
   int c = std::count(istreambuf_iterator<char>(inFile),istreambuf_iterator<char>(), '\n');
   return c;

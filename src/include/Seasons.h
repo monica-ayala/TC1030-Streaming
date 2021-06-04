@@ -9,7 +9,7 @@ using namespace std;
 class Seasons{
   private:
     int numOfEpisodes;
-    vector <Episodes> listOfEpisodes;
+    vector <Episodes> listOfEpisodes; //Aggregation
     float overallRaiting;
   public:
   //constructor
