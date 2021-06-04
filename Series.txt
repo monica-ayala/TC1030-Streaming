@@ -1,3 +1,4 @@
 12345 Friends C 4 3 2 s1e1 30 4 s1e2 35 3 2 s2e1 30 4 s2e2 30 4 3 s3e1 30 4 s3e2 30 4 s3e3 30 5
 12345 StartUp D 4 3 2 s1e1 30 4 s1e2 35 3 2 s2e1 30 4 s2e2 30 4 3 s3e1 30 4 s3e2 30 4 s3e3 30 5
-12345 DeathNote H 2 3 2 s1e1 30 4 s1e2 35 3 2 s2e1 30 4 s2e2 30 4 3 s3e1 30 4 s3e2 30 4 s3e3 30 5
+12345 StrangerThings H 2 3 2 s1e1 30 4 s1e2 35 3 2 s2e1 30 4 s2e2 30 4 3 s3e1 30 4 s3e2 30 4 s3e3 30 5
+12345 Bridgerton R 2 3 2 s1e1 30 4 s1e2 35 3 2 s2e1 30 4 s2e2 30 4 3 s3e1 30 4 s3e2 30 4 s3e3 30 5

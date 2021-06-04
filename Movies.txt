@@ -1,1 +1,11 @@
-12134 Barbie_Dinosaurio D 5 96
+12134 BarbieDinosaurio D 5 96
+12542 EnigmaGame D 5 100
+12653 Nemo C 3 100
+12930 Shrek C 4 120
+12903 Brave D 4 89
+23421 Ouija H 3 101
+23291 IT H 4 140
+23411 Purge H 3 120
+34918 TheNotebook R 4 100
+39210 MeBeforeYou R 4 124
+39012 AboutTime R 5 140
